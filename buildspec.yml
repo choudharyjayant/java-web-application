@@ -8,7 +8,8 @@ phases:
       - mvn test
   post_build:
     commands:
-      - echo Build completed successfully
+      - echo '--------------Build completed successfully--------------'
 artifacts:
   files:
+    #- target/jb-hello-world-maven-0.2.0.jar
     - '**/*'
